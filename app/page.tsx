@@ -8,7 +8,7 @@ export default function ContactPage() {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
-    const res = await fetch('https://ugpq6efle4.execute-api.eu-north-1.amazonaws.com/default/handleContactForm/handleContactForm', {
+    const res = await fetch('https://d192kb200f.execute-api.ap-southeast-2.amazonaws.com/default/handle-conatct-form/handle-contact-form', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name })
